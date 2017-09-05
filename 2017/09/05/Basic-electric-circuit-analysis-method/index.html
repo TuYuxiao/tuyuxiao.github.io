@@ -79,7 +79,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Electric," />
 
 
 
@@ -95,13 +95,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Blog">
-<meta property="og:url" content="https://tuyuxiao.github.io/index.html">
+<meta name="description" content="节点分析法KCL求解未知电压 选取一个节点作为参考节点，其余$ n-1 $个电压为$ v1,v_2,…,v{n-1} $ 对非参考节点列KCL方程组 求解未知电压  电压源在两个费参考节点之间时超节点  由两个非参考节点和电压源及与之并联的原件组成(当做节点分析) 超节点提供了求解电压的约束方程 超节点本身无电压 包含超节点的电路同时KVL和KCL求解  网孔分析法KVL求解未知电路只分析平面电路">
+<meta name="keywords" content="Electric">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Basic electric circuit (analysis method)">
+<meta property="og:url" content="https://tuyuxiao.github.io/2017/09/05/Basic-electric-circuit-analysis-method/index.html">
 <meta property="og:site_name" content="Blog">
+<meta property="og:description" content="节点分析法KCL求解未知电压 选取一个节点作为参考节点，其余$ n-1 $个电压为$ v1,v_2,…,v{n-1} $ 对非参考节点列KCL方程组 求解未知电压  电压源在两个费参考节点之间时超节点  由两个非参考节点和电压源及与之并联的原件组成(当做节点分析) 超节点提供了求解电压的约束方程 超节点本身无电压 包含超节点的电路同时KVL和KCL求解  网孔分析法KVL求解未知电路只分析平面电路">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-09-05T08:32:38.362Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Blog">
+<meta name="twitter:title" content="Basic electric circuit (analysis method)">
+<meta name="twitter:description" content="节点分析法KCL求解未知电压 选取一个节点作为参考节点，其余$ n-1 $个电压为$ v1,v_2,…,v{n-1} $ 对非参考节点列KCL方程组 求解未知电压  电压源在两个费参考节点之间时超节点  由两个非参考节点和电压源及与之并联的原件组成(当做节点分析) 超节点提供了求解电压的约束方程 超节点本身无电压 包含超节点的电路同时KVL和KCL求解  网孔分析法KVL求解未知电路只分析平面电路">
 
 
 
@@ -131,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="https://tuyuxiao.github.io/"/>
+  <link rel="canonical" href="https://tuyuxiao.github.io/2017/09/05/Basic-electric-circuit-analysis-method/"/>
 
 
 
 
 
-  <title>Blog</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+  <title>Basic electric circuit (analysis method) | Blog</title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 
 
@@ -156,8 +161,7 @@
     
   
 
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left 
-  page-home">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -260,9 +264,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -292,9 +296,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/09/05/Basic-electric-circuit-analysis-method/" itemprop="url">Basic electric circuit (analysis method)</a></h1>
+          <h1 class="post-title" itemprop="name headline">Basic electric circuit (analysis method)</h1>
         
 
         <div class="post-meta">
@@ -344,9 +346,7 @@
       
 
       
-        
-          
-            <h2 id="节点分析法"><a href="#节点分析法" class="headerlink" title="节点分析法"></a>节点分析法</h2><h3 id="KCL求解未知电压"><a href="#KCL求解未知电压" class="headerlink" title="KCL求解未知电压"></a>KCL求解未知电压</h3><ul>
+        <h2 id="节点分析法"><a href="#节点分析法" class="headerlink" title="节点分析法"></a>节点分析法</h2><h3 id="KCL求解未知电压"><a href="#KCL求解未知电压" class="headerlink" title="KCL求解未知电压"></a>KCL求解未知电压</h3><ul>
 <li>选取一个节点作为参考节点，其余$ n-1 $个电压为$ v<em>1,v_2,…,v</em>{n-1} $</li>
 <li>对非参考节点列KCL方程组</li>
 <li>求解未知电压</li>
@@ -384,8 +384,6 @@
 <li>$ v_k= $ 网孔顺时针方向所有独立电压源代数和，电压升高为正</li>
 </ul>
 
-          
-        
       
     </div>
     
@@ -400,263 +398,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://tuyuxiao.github.io/2017/09/04/Basic-electric-circuit-Basic-laws/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Tu Yuxiao">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/09/04/Basic-electric-circuit-Basic-laws/" itemprop="url">Basic electric circuit (Basic laws)</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-04T22:52:22+08:00">
-                2017-09-04
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/Electric/" rel="tag"># Electric</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="网络拓扑结构基本定律"><a href="#网络拓扑结构基本定律" class="headerlink" title="网络拓扑结构基本定律"></a>网络拓扑结构基本定律</h2><script type="math/tex; mode=display">b=l+n-1</script><ul>
-<li>b: 支路数(二端原件数量)</li>
-<li>l: 独立回路数</li>
-<li>n: 节点数</li>
-</ul>
-<h2 id="KCL"><a href="#KCL" class="headerlink" title="KCL"></a>KCL</h2><p>流入任一节点的电流之和为0 (适用于任何封闭界面)</p>
-<h2 id="KVL"><a href="#KVL" class="headerlink" title="KVL"></a>KVL</h2><p>任一回路的电压之和为0</p>
-<h2 id="三角-Y-转换"><a href="#三角-Y-转换" class="headerlink" title="三角 - Y 转换"></a>三角 - Y 转换</h2><p>三角网络各电阻值等于Y网络电阻两两乘之和除以所对应的Y网络对应电阻(角对应边)</p>
-<script type="math/tex; mode=display">R_a=\frac{R_1*R_2+R_2*R_3+R_3*R_1}{R_1}</script><p>Y网络电阻值等于除对应三角网络电阻之外两个电阻乘积除以三角网络三电阻之和</p>
-<script type="math/tex; mode=display">R_1=\frac{R_b*R_c}{R_a+R_b+R_c}</script>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
       
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://tuyuxiao.github.io/2017/09/03/Termux/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Tu Yuxiao">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/09/03/Termux/" itemprop="url">Termux神器安装</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-03T20:13:56+08:00">
-                2017-09-03
-              </time>
+              <a href="/2017/09/04/Basic-electric-circuit-Basic-laws/" rel="next" title="Basic electric circuit (Basic laws)">
+                <i class="fa fa-chevron-left"></i> Basic electric circuit (Basic laws)
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h2 id="Termux神器"><a href="#Termux神器" class="headerlink" title="Termux神器"></a>Termux神器</h2><hr>
-<p>Termux</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -666,138 +437,11 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://tuyuxiao.github.io/2017/09/03/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Tu Yuxiao">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/09/03/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-03T16:23:26+08:00">
-                2017-09-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -805,6 +449,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -825,8 +473,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <p class="site-author-name" itemprop="name">Tu Yuxiao</p>
@@ -891,6 +548,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#节点分析法"><span class="nav-number">1.</span> <span class="nav-text">节点分析法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#KCL求解未知电压"><span class="nav-number">1.1.</span> <span class="nav-text">KCL求解未知电压</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#网孔分析法"><span class="nav-number">2.</span> <span class="nav-text">网孔分析法</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#KVL求解未知电路"><span class="nav-number">2.1.</span> <span class="nav-text">KVL求解未知电路</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#网孔-mesh-不包含任一其它回路的回路"><span class="nav-number">2.1.1.</span> <span class="nav-text">网孔(mesh):不包含任一其它回路的回路</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基于观察法的节点和网孔分析"><span class="nav-number">3.</span> <span class="nav-text">基于观察法的节点和网孔分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#节点法"><span class="nav-number">3.1.</span> <span class="nav-text">节点法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网孔法"><span class="nav-number">3.2.</span> <span class="nav-text">网孔法</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1018,6 +691,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
 
   
 
