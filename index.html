@@ -275,6 +275,129 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://tuyuxiao.github.io/2017/09/15/Rasberrypi-official-camera/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Tu Yuxiao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/09/15/Rasberrypi-official-camera/" itemprop="url">Rasberrypi official camera</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-15T15:28:30+08:00">
+                2017-09-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>树莓派官方摄像头编码格式和普通摄像头不同不一样<br>会出现如下报错<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"> self.background=cv2.cvtColor(self.get_frame(),cv2.COLOR_BGR2GRAY)</div><div class="line">cv2.error: /home/pi/opencv/modules/imgproc/src/color.cpp:<span class="number">10655</span>: error: (<span class="number">-215</span>) scn == <span class="number">3</span> || scn == <span class="number">4</span> <span class="keyword">in</span> function cvtColor</div></pre></td></tr></table></figure></p>
+<p>需要安装picamera，使用picamera调取摄像头数据<br>具体内容见 <a href="http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/" target="_blank" rel="external">http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/</a></p>
+<p>基本格式<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># import the necessary packages</span></div><div class="line"><span class="keyword">from</span> picamera.array <span class="keyword">import</span> PiRGBArray</div><div class="line"><span class="keyword">from</span> picamera <span class="keyword">import</span> PiCamera</div><div class="line"><span class="keyword">import</span> time</div><div class="line"><span class="keyword">import</span> cv2</div><div class="line"> </div><div class="line"><span class="comment"># initialize the camera and grab a reference to the raw camera capture</span></div><div class="line">camera = PiCamera()</div><div class="line">camera.resolution = (<span class="number">640</span>, <span class="number">480</span>)</div><div class="line">camera.framerate = <span class="number">32</span></div><div class="line">rawCapture = PiRGBArray(camera, size=(<span class="number">640</span>, <span class="number">480</span>))</div><div class="line"> </div><div class="line"><span class="comment"># allow the camera to warmup</span></div><div class="line">time.sleep(<span class="number">0.1</span>)</div><div class="line"> </div><div class="line"><span class="comment"># capture frames from the camera</span></div><div class="line"><span class="keyword">for</span> frame <span class="keyword">in</span> camera.capture_continuous(rawCapture, format=<span class="string">"bgr"</span>, use_video_port=<span class="keyword">True</span>):</div><div class="line">	<span class="comment"># grab the raw NumPy array representing the image, then initialize the timestamp</span></div><div class="line">	<span class="comment"># and occupied/unoccupied text</span></div><div class="line">	image = frame.array</div><div class="line"> </div><div class="line">	<span class="comment"># show the frame</span></div><div class="line">	cv2.imshow(<span class="string">"Frame"</span>, image)</div><div class="line">	key = cv2.waitKey(<span class="number">1</span>) &amp; <span class="number">0xFF</span></div><div class="line"> </div><div class="line">	<span class="comment"># clear the stream in preparation for the next frame</span></div><div class="line">	rawCapture.truncate(<span class="number">0</span>)</div><div class="line"> </div><div class="line">	<span class="comment"># if the `q` key was pressed, break from the loop</span></div><div class="line">	<span class="keyword">if</span> key == ord(<span class="string">"q"</span>):</div><div class="line">		<span class="keyword">break</span></div></pre></td></tr></table></figure></p>
+<p>记得 rawCapture.truncate(0) 清除缓存（在读取图片后），否则会报错</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://tuyuxiao.github.io/2017/09/05/Basic-electric-circuit-analysis-method/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -840,7 +963,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -853,7 +976,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
