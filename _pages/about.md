@@ -86,8 +86,7 @@ My research interest includes modular robot.
 - *2020.08 - 2025.10*, PhD, Computer and Information Engineering, The Chinese University of Hong Kong, Shenzhen. 
 - *2016.09 - 2020.06*,  Undergraduate, Electronic and Information Engineering, The Chinese University of Hong Kong, Shenzhen. 
 
-%# 💬 Invited Talks
-%- 
+# 💬 Invited Talks
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2020.06 - 2025.10*, [Freeform Robotics Group, CUHK(SZ)](https://freeformrobotics.org/), China.
