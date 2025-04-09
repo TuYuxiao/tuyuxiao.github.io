@@ -86,7 +86,12 @@ My research interest includes modular robot.
 - *2020.08 - 2025.10*, PhD, Computer and Information Engineering, The Chinese University of Hong Kong, Shenzhen. 
 - *2016.09 - 2020.06*,  Undergraduate, Electronic and Information Engineering, The Chinese University of Hong Kong, Shenzhen. 
 
-# 💬 Invited Talks
+# 💬 Teaching Experiences
+Teaching Assistant at CUHK(SZ)
+-	ECE4310/CIE6042 Programming for Robotics, 2022.
+-	EIE3810/ECE3810 Microprocessor System Design Laboratory, 2021-2025.
+-	EIE2810 Digital Systems Design Laboratory, 2021, 2023-2024.
+-	PHY1002: Physics Laboratory, 2020.
 
 # 💻 Internships
 - *2020.06 - 2025.10*, [Freeform Robotics Group, CUHK(SZ)](https://freeformrobotics.org/), China.
