@@ -40,18 +40,18 @@ My research interest includes neural machine translation and computer vision. I 
 </div>
 </div>
 
-- <div class="badge">IJRR 2024</div> [Linear-Time Quasi-Static Stability Detection for Modular Self-Reconfigurable Robots](https://freeformrobotics.org/wp-content/uploads/2024/11/Stability_MSRR.pdf), Di Wu, Guanqi Liang, Yuxiao Tu, Tin Lun Lam*
-- <div class="badge">IJRR 2024</div> [Decoding Modular Reconfigurable Robots: A Survey on Mechanisms and Design](), Guanqi Liang, Di Wu, Yuxiao Tu, Tin Lun Lam*
-- <div class="badge">Nature Communications 2024</div> [Snail-Inspired Robotic Swarms: A Hybrid Connector Drives Collective Adaptation in Unstructured Outdoor Environments](), Da Zhao, Haobo Luo, Yuxiao Tu, Chongxi Meng, Tin Lun Lam*
-- <div class="badge">Science and Technology Foresight 2024</div> [Application Prospects of Self-reconfiguration Robots for Exploration and Construction of Extraterrestrial Lava Tubes](), LAM Tin Lun, LUO Haobo, TU Yuxiao, LIANG Guanqi, ZHAO Da, DING Ning, SHI Xin, WANG Ke
-- <div class="badge">ICRA 2025</div> [Visual Relative Localization for Spherical Modular Self-Reconfigurable Robots with the Ability to Adapt to Different Configurations](), Yuming Liu, Qiu Zheng, Yuxiao Tu, Yuan Gao, Tin Lun Lam*
-- <div class="badge">IROS 2024</div> [Energy Sharing Mechanism for Freeform Robots Utilizing Conductive Spherical Sliding Surfaces](), Xinzhuo Li, Yuxiao Tu, Guanqi Liang, Di Wu, Tin Lun Lam*
-- <div class="badge">IJRR 2022</div> [FreeSN: A Freeform Strut-node Structured Modular Self-reconfigurable Robot - Design and Implementation](), Yuxiao Tu, Guanqi Liang, Tin Lun Lam*
-- <div class="badge">IJRR 2022</div> [Energy Sharing Mechanism for a Freeform Robotic System - FreeBOT](), Guanqi Liang, Yuxiao Tu, Tin Lun Lam*
-- <div class="badge">IJRR 2021</div> [Graph Convolutional Network based Configuration Detection for Freeform Modular Robot Using Magnetic Sensor Array](), Yuxiao Tu, Guanqi Liang, Tin Lun Lam*
-- <div class="badge">Nature Communications 2020</div> [Autonomous discovery of optically active chiral inorganic perovskite nanocrystals through an intelligent cloud lab](), Jiagen Li, Junzi Li, Rulin Liu, Yuxiao Tu, et al.
-- <div class="badge">Adv. Sci. 2020</div> [Toward “On‐Demand” Materials Synthesis and Scientific Discovery through Intelligent Robots](), Jiagen Li, Yuxiao Tu, Rulin Liu, Yihua Lu, Xi Zhu*
-- <div class="badge">J. Phys. Chem. 2018</div> [AIR-Chem: Authentic Intelligent Robotics for Chemistry](), Jiagen Li, Yihua Lu, Yanheng Xu, Chongfeng Liu, Yuxiao Tu, Shuqian Ye, Haochen Liu, Yi Xie*, Huihuan Qian*, and Xi Zhu*
+- ``IJRR 2024`` [Linear-Time Quasi-Static Stability Detection for Modular Self-Reconfigurable Robots](https://freeformrobotics.org/wp-content/uploads/2024/11/Stability_MSRR.pdf), Di Wu, Guanqi Liang, Yuxiao Tu, Tin Lun Lam*
+- ``IJRR 2024`` [Decoding Modular Reconfigurable Robots: A Survey on Mechanisms and Design](), Guanqi Liang, Di Wu, Yuxiao Tu, Tin Lun Lam*
+- ``Nature Communications 2024`` [Snail-Inspired Robotic Swarms: A Hybrid Connector Drives Collective Adaptation in Unstructured Outdoor Environments](), Da Zhao, Haobo Luo, Yuxiao Tu, Chongxi Meng, Tin Lun Lam*
+- ``Science and Technology Foresight 2024`` [Application Prospects of Self-reconfiguration Robots for Exploration and Construction of Extraterrestrial Lava Tubes](), LAM Tin Lun, LUO Haobo, TU Yuxiao, LIANG Guanqi, ZHAO Da, DING Ning, SHI Xin, WANG Ke
+- ``ICRA 2025`` [Visual Relative Localization for Spherical Modular Self-Reconfigurable Robots with the Ability to Adapt to Different Configurations](), Yuming Liu, Qiu Zheng, Yuxiao Tu, Yuan Gao, Tin Lun Lam*
+- ``IROS 2024`` [Energy Sharing Mechanism for Freeform Robots Utilizing Conductive Spherical Sliding Surfaces](), Xinzhuo Li, Yuxiao Tu, Guanqi Liang, Di Wu, Tin Lun Lam*
+- ``IJRR 2022`` [FreeSN: A Freeform Strut-node Structured Modular Self-reconfigurable Robot - Design and Implementation](), Yuxiao Tu, Guanqi Liang, Tin Lun Lam*
+- ``IJRR 2022`` [Energy Sharing Mechanism for a Freeform Robotic System - FreeBOT](), Guanqi Liang, Yuxiao Tu, Tin Lun Lam*
+- ``IJRR 2021`` [Graph Convolutional Network based Configuration Detection for Freeform Modular Robot Using Magnetic Sensor Array](), Yuxiao Tu, Guanqi Liang, Tin Lun Lam*
+- ``Nature Communications 2020`` [Autonomous discovery of optically active chiral inorganic perovskite nanocrystals through an intelligent cloud lab](), Jiagen Li, Junzi Li, Rulin Liu, Yuxiao Tu, et al.
+- ``Adv. Sci. 2020`` [Toward “On‐Demand” Materials Synthesis and Scientific Discovery through Intelligent Robots](), Jiagen Li, Yuxiao Tu, Rulin Liu, Yihua Lu, Xi Zhu*
+- ``J. Phys. Chem. 2018`` [AIR-Chem: Authentic Intelligent Robotics for Chemistry](), Jiagen Li, Yihua Lu, Yanheng Xu, Chongfeng Liu, Yuxiao Tu, Shuqian Ye, Haochen Liu, Yi Xie*, Huihuan Qian*, and Xi Zhu*
 
 # 🎖 Honors and Awards
 - *2024.12* 2024年深圳市科协第四届优秀科技学术论文奖
