@@ -27,27 +27,49 @@ My research interest includes modular robot.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRO 2023</div><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=594384897&bvid=BV1Aq4y147XS&cid=700485003&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRO 2023</div><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=830736358&bvid=BV1r34y1N7v7&cid=1259931281&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Configuration Identification for a Freeform Modular Self-Reconfigurable Robot - FreeSN](https://freeformrobotics.org/wp-content/uploads/2023/09/FreeSN_TRO2023.pdf)
 
 **Yuxiao Tu**, Tin Lun Lam*
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=lBXluY0AAAAJ&citation_for_view=lBXluY0AAAAJ:UeHWp8X0CEIC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Configuration identification system for FreeSN.
 </div>
 </div>
 
-- <code class="language-plaintext highlighter-rouge">IJRR 2024</code> [Linear-Time Quasi-Static Stability Detection for Modular Self-Reconfigurable Robots](https://freeformrobotics.org/wp-content/uploads/2024/11/Stability_MSRR.pdf), Di Wu, Guanqi Liang, **Yuxiao Tu**, Tin Lun Lam*
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2022</div><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=594384897&bvid=BV1Aq4y147XS&cid=700485003&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FreeSN: A Freeform Strut-node Structured Modular Self-reconfigurable Robot - Design and Implementation](https://freeformrobotics.org/wp-content/uploads/2022/03/ICRA22_2488_FI.pdf)
+
+**Yuxiao Tu**, Guanqi Liang, Tin Lun Lam*
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=lBXluY0AAAAJ&citation_for_view=lBXluY0AAAAJ:2osOgNQ5qMEC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- FreeSN
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2021</div><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=247471070&bvid=BV1Xv411j7NW&cid=318737827&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Graph Convolutional Network based Configuration Detection for Freeform Modular Robot Using Magnetic Sensor Array](https://freeformrobotics.org/wp-content/uploads/2022/02/ICRA21_2305_FI.pdf)
+
+**Yuxiao Tu**, Guanqi Liang, Tin Lun Lam*
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=lBXluY0AAAAJ&citation_for_view=lBXluY0AAAAJ:9yKSN-GCB0IC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- FreeSN
+</div>
+</div>
+
+- ``ICRA 2025`` [Visual Relative Localization for Spherical Modular Self-Reconfigurable Robots with the Ability to Adapt to Different Configurations](), Yuming Liu, Qiu Zheng, **Yuxiao Tu**, Yuan Gao, Tin Lun Lam*
+- ``IJRR 2024`` [Linear-Time Quasi-Static Stability Detection for Modular Self-Reconfigurable Robots](https://freeformrobotics.org/wp-content/uploads/2024/11/Stability_MSRR.pdf), Di Wu, Guanqi Liang, **Yuxiao Tu**, Tin Lun Lam*
 - ``IJRR 2024`` [Decoding Modular Reconfigurable Robots: A Survey on Mechanisms and Design](), Guanqi Liang, Di Wu, **Yuxiao Tu**, Tin Lun Lam*
 - ``Nature Communications 2024`` [Snail-Inspired Robotic Swarms: A Hybrid Connector Drives Collective Adaptation in Unstructured Outdoor Environments](), Da Zhao, Haobo Luo, **Yuxiao Tu**, Chongxi Meng, Tin Lun Lam*
 - ``Science and Technology Foresight 2024`` [Application Prospects of Self-reconfiguration Robots for Exploration and Construction of Extraterrestrial Lava Tubes](), LAM Tin Lun, LUO Haobo, **TU Yuxiao**, LIANG Guanqi, ZHAO Da, DING Ning, SHI Xin, WANG Ke
-- ``ICRA 2025`` [Visual Relative Localization for Spherical Modular Self-Reconfigurable Robots with the Ability to Adapt to Different Configurations](), Yuming Liu, Qiu Zheng, **Yuxiao Tu**, Yuan Gao, Tin Lun Lam*
 - ``IROS 2024`` [Energy Sharing Mechanism for Freeform Robots Utilizing Conductive Spherical Sliding Surfaces](), Xinzhuo Li, **Yuxiao Tu**, Guanqi Liang, Di Wu, Tin Lun Lam*
-- ``IJRR 2022`` [FreeSN: A Freeform Strut-node Structured Modular Self-reconfigurable Robot - Design and Implementation](), **Yuxiao Tu**, Guanqi Liang, Tin Lun Lam*
-- ``IJRR 2022`` [Energy Sharing Mechanism for a Freeform Robotic System - FreeBOT](), Guanqi Liang, **Yuxiao Tu**, Tin Lun Lam*
-- ``IJRR 2021`` [Graph Convolutional Network based Configuration Detection for Freeform Modular Robot Using Magnetic Sensor Array](), **Yuxiao Tu**, Guanqi Liang, Tin Lun Lam*
+- ``ICRA 2022`` [Energy Sharing Mechanism for a Freeform Robotic System - FreeBOT](), Guanqi Liang, **Yuxiao Tu**, Tin Lun Lam*
 - ``Nature Communications 2020`` [Autonomous discovery of optically active chiral inorganic perovskite nanocrystals through an intelligent cloud lab](), Jiagen Li, Junzi Li, Rulin Liu, **Yuxiao Tu**, et al.
 - ``Adv. Sci. 2020`` [Toward “On‐Demand” Materials Synthesis and Scientific Discovery through Intelligent Robots](), Jiagen Li, **Yuxiao Tu**, Rulin Liu, Yihua Lu, Xi Zhu*
 - ``J. Phys. Chem. 2018`` [AIR-Chem: Authentic Intelligent Robotics for Chemistry](), Jiagen Li, Yihua Lu, Yanheng Xu, Chongfeng Liu, **Yuxiao Tu**, Shuqian Ye, Haochen Liu, Yi Xie*, Huihuan Qian*, and Xi Zhu*
