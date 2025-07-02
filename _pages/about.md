@@ -26,6 +26,17 @@ My research interest includes modular robot.
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJRR 2025</div></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Locomotionand Self-reconfiguration Autonomy for Spherical Freeform Modular Robots]()
+
+**Yuxiao Tu**, Guanqi Liang, Di Wu, Xinzhuo Li, Tin Lun Lam*
+
+[**Project**]() <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Library-driven autonomy for spherical freeform modular self-reconfigurable robots.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TRO 2023</div><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=830736358&bvid=BV1r34y1N7v7&cid=1259931281&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div></div>
 <div class='paper-box-text' markdown="1">
@@ -47,7 +58,7 @@ My research interest includes modular robot.
 **Yuxiao Tu**, Guanqi Liang, Tin Lun Lam*
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=lBXluY0AAAAJ&citation_for_view=lBXluY0AAAAJ:2osOgNQ5qMEC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- FreeSN
+- FreeSN Prototype Hardware Design.
 </div>
 </div>
 
@@ -59,7 +70,7 @@ My research interest includes modular robot.
 **Yuxiao Tu**, Guanqi Liang, Tin Lun Lam*
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=lBXluY0AAAAJ&citation_for_view=lBXluY0AAAAJ:9yKSN-GCB0IC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- FreeSN
+- Connection Point Localization for FreeBOT.
 </div>
 </div>
 
