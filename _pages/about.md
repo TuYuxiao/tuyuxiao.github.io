@@ -26,7 +26,7 @@ My research interest includes modular robot.
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJRR 2025</div></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJRR 2025</div><iframe width="560" height="315" src="https://www.youtube.com/embed/GgozSTWPMjg?si=0FV-_dle4gOVPF1V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Locomotionand Self-reconfiguration Autonomy for Spherical Freeform Modular Robots]()
