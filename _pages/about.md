@@ -87,7 +87,7 @@ My research interest includes modular robot.
 - ``J. Phys. Chem. 2018`` [AIR-Chem: Authentic Intelligent Robotics for Chemistry](), Jiagen Li, Yihua Lu, Yanheng Xu, Chongfeng Liu, **Yuxiao Tu**, Shuqian Ye, Haochen Liu, Yi Xie*, Huihuan Qian*, and Xi Zhu*
 
 # 🎖 Honors and Awards
-- *2025.7* 2025 CUHK(SZ) SSE Doctoral Research Conference 1nd Prize
+- *2025.7* 2025 CUHK(SZ) SSE Doctoral Research Conference 1st Prize
 - *2025.05* ICRA 2025 Best Conference Paper Award - Finalist
 - *2024.12* [2024年深圳市科协第四届优秀科技学术论文奖](https://saai.net.cn/wp-content/uploads/2024/12/2024%E5%B9%B4%E6%B7%B1%E5%9C%B3%E5%B8%82%E7%A7%91%E5%8D%8F%E7%AC%AC%E5%9B%9B%E5%B1%8A%E4%BC%98%E7%A7%80%E7%A7%91%E6%8A%80%E5%AD%A6%E6%9C%AF%E8%AE%BA%E6%96%87%E9%81%B4%E9%80%89%E7%BB%93%E6%9E%9C-1.pdf)
 - *2024.04* ICRA 2024 WORKSHOP: BREAKING SWARM STEREOTYPES - Best video award
